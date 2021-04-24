@@ -218,6 +218,7 @@ img {
 // footer 
 .footer {
     background: #758b98;
+    margin-top: -2px;
     @media (min-width: 1921px) {
         padding-bottom: 100px;
     }
@@ -252,9 +253,6 @@ img {
             & i {
                 font-size: 35px;
                 color: #fff;
-                &:first-child {
-                    padding-right: 17px;
-                }
             }
         }
     }

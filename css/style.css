@@ -282,6 +282,7 @@ img {
 
 .footer {
   background: #758b98;
+  margin-top: -2px;
 }
 
 @media (min-width: 1921px) {
@@ -348,10 +349,6 @@ img {
 .footer__content-icon i {
   font-size: 35px;
   color: #fff;
-}
-
-.footer__content-icon i:first-child {
-  padding-right: 17px;
 }
 
 .footer-bottom {
