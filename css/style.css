@@ -273,6 +273,7 @@ img {
 
 .works__col-img {
   width: 100%;
+  border-radius: 20px;
 }
 
 .footer {
@@ -295,6 +296,10 @@ img {
   .footer {
     padding: 20px 0 30px;
   }
+}
+
+.footer__container {
+  padding: 0 20px;
 }
 
 .footer__content {

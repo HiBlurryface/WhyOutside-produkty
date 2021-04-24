@@ -207,6 +207,7 @@ img {
         }
         &-img {
             width: 100%;
+            border-radius: 20px;
         }
     }
 }
@@ -222,6 +223,9 @@ img {
     }
     @media (max-width: 768px) {
         padding: 20px 0 30px;
+    }
+    &__container {
+        padding: 0 20px;
     }
     &__content {
         display: flex;
