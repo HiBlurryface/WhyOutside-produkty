@@ -276,6 +276,10 @@ img {
   border-radius: 20px;
 }
 
+.works__col-img:hover {
+  background: #000;
+}
+
 .footer {
   background: #758b98;
 }
@@ -352,6 +356,7 @@ img {
 
 .footer-bottom {
   background: #fafafa;
+  margin-top: -2px;
 }
 
 .footer-bottom img {

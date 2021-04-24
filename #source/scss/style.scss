@@ -208,6 +208,9 @@ img {
         &-img {
             width: 100%;
             border-radius: 20px;
+            &:hover {
+                background: #000;
+            }
         }
     }
 }
@@ -258,6 +261,7 @@ img {
 }
 .footer-bottom {
     background: #fafafa;
+    margin-top: -2px;
     & img {
         width: 100%;
         object-fit: cover;
