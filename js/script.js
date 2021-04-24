@@ -5,10 +5,10 @@ $(document).ready(function () {
     })
 })
 
-new Swiper('.products__slider', {
+new Swiper('.works__slider', {
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
     },
-    // simulateTouch: false,
+    spaceBetween: 50,
 });

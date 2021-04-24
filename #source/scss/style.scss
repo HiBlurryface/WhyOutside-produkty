@@ -213,6 +213,38 @@ img {
             }
         }
     }
+    &__slider {
+        width: 50%;
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+        margin: 0 auto 100px;
+        &-slide {
+            padding: 0 10px;
+            @media (max-width: 768px) {
+                padding: 0 5px;
+            }
+            & img {
+                border-radius: 20px;
+                width: 100%;
+            }
+        }
+        &-wrapper {
+            padding-bottom: 70px;
+        }
+        & .swiper-pagination {
+            &-bullet {
+                height: 25px;
+                width: 25px;
+                background: #ee7353;
+                opacity: 0.6;
+                &-active {
+                    background: #ee7353;
+                    opacity: 1;
+                }
+            }
+        }
+    }
 }
 
 // footer 
