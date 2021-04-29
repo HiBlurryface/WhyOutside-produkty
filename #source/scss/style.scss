@@ -204,10 +204,19 @@ a, a:hover, a:active, a:focus {
         }
     }
     &__block {
+        width: 100%;
         position: relative;
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
         &:hover > &-descr {
             opacity: 1;
-            visibility: visible;
+            visibility: visible;    
+        }
+        @media (max-width: 1024px) {
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
         }
         &-descr {
             position: absolute;

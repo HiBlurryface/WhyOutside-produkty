@@ -268,12 +268,23 @@ a, a:hover, a:active, a:focus {
 }
 
 .works__block {
+  width: 100%;
   position: relative;
+}
+
+.works__block:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .works__block:hover > .works__block-descr {
   opacity: 1;
   visibility: visible;
+}
+
+@media (max-width: 1024px) {
+  .works__block:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 
 .works__block-descr {
